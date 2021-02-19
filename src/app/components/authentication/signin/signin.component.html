@@ -1,1 +1,12 @@
-<p>signin works!</p>
+<div class="container">
+    <form class="login-form" [formgroup]="signinForm" (ngSubmit)="onSigninForm()">
+        <h1>Sign In</h1>
+        <div class="form-group" id="textb">
+            <input type="email" id="email" placeholder="Email" formControlName="email">
+        </div>
+        <div class="form-group" id="textb">
+            <input type="password" id="password" placeholder="Password" formControlName="password">
+        </div>
+        <button type="submit" class="btn fas fa-arrow-right"></button>
+    </form>
+</div>
