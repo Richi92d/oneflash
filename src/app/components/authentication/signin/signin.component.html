@@ -1,5 +1,5 @@
 <div class="container">
-    <form class="login-form" [formgroup]="signinForm" (ngSubmit)="onSigninForm()">
+    <form class="login-form" [formGroup]="signinForm" (ngSubmit)="onSubmitSigninForm()">
         <h1>Sign In</h1>
         <div class="form-group" id="textb">
             <input type="email" id="email" placeholder="Email" formControlName="email">
