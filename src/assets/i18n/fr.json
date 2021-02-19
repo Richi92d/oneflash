@@ -1,0 +1,9 @@
+{
+    "signin": {
+        "title": "Connexion"
+    },
+    "countdown": {
+        "count": "Compte",
+        "down": "à Rebours"
+    }
+}
