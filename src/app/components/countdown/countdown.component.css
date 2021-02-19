@@ -1,0 +1,23 @@
+.content {
+    width: calc(100% - 20px);
+    max-width: 150px;
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 2%;
+    text-align: center; 
+    font-size: 50px;
+}
+
+strong {
+    color: #bc252a;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    margin: 0 2px;
+    border-radius: 20%;
+    background-color: #bc252a;
+    color: white;
+    text-align: center;
+}
