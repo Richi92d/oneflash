@@ -1,11 +1,11 @@
 <div class="content">
     <div class="card">
         <h2>Count <strong>Down</strong></h2>
-        <p>10:20:50</p>
+        <p>{{time.toISOString().substr(11, 8)}}</p>
     </div>
     <div class="card-button">
-        <button>Start</button>
-        <button>ll</button>
-        <button>Reset</button>
+        <button (click)="startTimer()">Start</button>
+        <button (click)="pauseTimer()">ll</button>
+        <button (click)="resetTimer()">Reset</button>
     </div>
 </div>
