@@ -1,8 +1,23 @@
 .container {
     display: flex;
     align-items: center;
-    background-color: powderblue;
     justify-content: space-around;
+    width: 100%;
+}
+
+.content {
+    background-color: powderblue;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    top: 100px;
+    border: none;
+    color: white;
+    background-color: #bc252a;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* Mobile Queries */
